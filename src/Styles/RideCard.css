@@ -1,0 +1,45 @@
+.ride-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.ride-details {
+  flex-grow: 1;
+}
+
+.ride-time, .ride-route, .ride-driver {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.ride-time span, .ride-route span, .ride-driver span {
+  margin-right: 10px;
+}
+
+.ride-driver {
+  margin-top: 10px;
+}
+
+.ride-driver .driver-name {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.ride-driver .driver-rating-icon, .ride-driver .booking-type-icon, .ride-driver .max-people-icon {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.ride-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  margin-left: 20px;
+}

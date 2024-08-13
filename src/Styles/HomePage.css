@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    align-items: center;
+}
+
+.search1 {
+    padding-top: 10px;
+}
+
+.profile-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.location1{
+    align-items: center;
+    padding-left:600px;
+}
+.profile-icon {
+    width: 40px;
+    height: 40px;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.hero-section {
+    background: url('../Assets/download.gif') center no-repeat;
+    background-size: cover;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    /* position: relative; */
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.search-barer {
+    display: flex;
+    justify-content: center;
+    gap: 19px;  
+}
+
+.search-barer input {
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
+.search-barer button {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #666;
+}

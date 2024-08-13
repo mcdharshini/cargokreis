@@ -1,0 +1,33 @@
+.popular-hubs {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hubs-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .hub-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .hub-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .hub-card p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #333;
+  }
+  

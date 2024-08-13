@@ -1,0 +1,60 @@
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav .search1 {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-menu {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    height: 40px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.myride-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.rides-container {
+    width: 140vh;
+    margin-left: 225px;
+}
+
+.ride-detail {
+    padding: 20px;
+    margin: 10px;
+}

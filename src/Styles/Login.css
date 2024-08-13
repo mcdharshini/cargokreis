@@ -1,0 +1,138 @@
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+   margin-top: 1000px;
+   
+ 
+}
+
+.header-Login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 1500px;
+  padding: 10px 20px;
+  
+  
+}
+.login-content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  zoom: 135%;
+}
+
+.form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-box {
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.welcome {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.welcome2 {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-options {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  margin-top: 10px;
+}
+.form-options label {
+  display:flex;
+
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: #007bff;
+  margin-left: auto;
+}
+
+.loginp1{
+  width: 90%;
+  padding: 10px;
+  background-color: hsl(211, 100%, 50%);
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.close-button{
+  /* width: 100%; */
+  /* padding: 10px; */
+  border: none;
+  color: #000000;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+  button.loginp1:hover{
+    background-color:#7697bb;
+  }
+.signup {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup .sign {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-image {
+  max-width: 145%;
+  height: 100px ;
+  border-radius: 8px;
+  width: 100px;
+}

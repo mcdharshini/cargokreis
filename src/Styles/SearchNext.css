@@ -1,0 +1,100 @@
+/* src/SearchNext.css */
+
+.App-search {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-search {
+    height: 50px;
+}
+
+.publish-ride {
+    background-color: #fff;
+    color: black;
+    border: none;
+    margin-left: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px;
+}
+
+.profile-icon {
+    font-size: 24px;
+}
+
+.search-bar {
+    margin: 20px;
+}
+
+.rides {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ride-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ride-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.ride-time {
+    font-size: 16px;
+    color: #333;
+}
+
+.ride-location {
+    font-size: 14px;
+    color: #666;
+}
+
+.ride-driver {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.driver-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.driver-name {
+    font-size: 16px;
+    color: #333;
+}
+
+.booking-type {
+    font-size: 14px;
+    color: #007bff;
+    margin-top: 5px;
+}
+
+.ride-price {
+    font-size: 24px;
+    color: #007bff;
+}

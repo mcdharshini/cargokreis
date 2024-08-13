@@ -1,0 +1,49 @@
+.Appdata {
+    text-align: center;
+    background-color: #f7f7f7;
+
+  }
+.increase{
+    /* font-size: large; */
+  }
+  .search{
+    width: 200px;
+    height: max-content;
+
+  }
+  .firstfeatures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .featuredelivery {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .feature h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .feature p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .iconicon {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
